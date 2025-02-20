@@ -22,9 +22,7 @@
         <label for="email">Email  : </label><br>
         <input type="text" class="form-control" id="email" name="email" [(ngModel)]="u.email">
     </div><br>
-    <div>
-        <input type="submit">
-    </div>
+    <button type="submit" class="btn btn-primary">{{isUpdate? 'Update':'Submit'}}</button>
 
 </form>
 </div>
